@@ -132,7 +132,7 @@
 											</firstStatus>
 											<secondStatus>
 													<ObjectStatus
-														title="{i18n>statusDeliveryFrom}"
+														title="Delivered from"
 														text="{ToSupplier/Address/City}"/>
 											</secondStatus>
 										</ObjectListItem>
