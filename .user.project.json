@@ -28,7 +28,11 @@
         "runnerId": "webapprunner",
         "id": 6432164,
         "displayName": "Run index.html 2",
+<<<<<<< HEAD
         "lastRunTimeStamp": 1523890033188
+=======
+        "lastRunTimeStamp": 1523629603104
+>>>>>>> branch 'master' of https://github.com/KimlyTSS/openUI5Test.git
       }
     },
     {
