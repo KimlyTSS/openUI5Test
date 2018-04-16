@@ -1,7 +1,38 @@
 {
+  "build": {
+    "targetFolder": "dist",
+    "sourceFolder": "webapp",
+    "excludedFolders": [
+      "test"
+    ],
+    "excludedFiles": [
+      "test.html"
+    ],
+    "buildRequired": false,
+    "lastBuildDateTime": "Tue, 17 May 2016 08:15:30 GMT"
+  },
   "run": [
     {
-      "filePath": "/index.html",
+      "filePath": "/webapp/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [],
+      "hashParameter": "",
+      "backendSystem": [],
+      "urlParametersNotNeeded": false,
+      "_metadata": {
+        "runnerId": "webapprunner",
+        "id": 1986830,
+        "displayName": "Run index.html 3",
+        "lastRunTimeStamp": 1523877886932
+      }
+    },
+    {
+      "filePath": "/webapp/index.html",
       "previewMode": 1,
       "dataMode": 1,
       "workspace": "withoutWorkspace",
@@ -16,11 +47,11 @@
         "runnerId": "webapprunner",
         "id": 6432164,
         "displayName": "Run index.html 2",
-        "lastRunTimeStamp": 1523627771154
+        "lastRunTimeStamp": 1523869644020
       }
     },
     {
-      "filePath": "/Component.js",
+      "filePath": "/webapp/Component.js",
       "previewMode": 1,
       "dataMode": 1,
       "workspace": "withoutWorkspace",
@@ -57,7 +88,7 @@
       }
     },
     {
-      "filePath": "/index.html",
+      "filePath": "/webapp/index.html",
       "previewMode": 1,
       "dataMode": 1,
       "workspace": "withoutWorkspace",
