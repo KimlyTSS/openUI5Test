@@ -25,10 +25,15 @@
 						<Button text="{i18n>showHelloButtonText}" 
 								press="onShowHello"/>
 						<Input
-								value="{helloPanel>/recipient/name}"
-								description="Hello {helloPanel>/recipient/name}"
-								valueLiveUpdate="true"
-								width="60%"/>
+								value="{
+										path: 'helloPanel>/recipient/amount',
+										type: 'sap.ui.model.type.Float',
+										formatOptions: {minFractionDigits: 2},
+										constraints: {maximum : 3000}
+									}"
+									description="Hello {helloPanel>/recipient/name}"
+									valueLiveUpdate="false"
+									width="60%"/>
 						</IconTabFilter>
 						<IconTabFilter id="layouts" text="{i18n>layoutFilter}">
 								<MessageStrip
